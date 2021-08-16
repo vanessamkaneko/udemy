@@ -1,24 +1,24 @@
-//let umaString = "Um texto";
+let umaString = "Um texto";
 
-//console.log(umaString.charAt(3)) // o charAt devolve o elemento que está na posição indicada - no caso na posição 3 está a letra t (inicia contando no 0 e o espaço também conta como uma posição
+console.log(umaString.charAt(3)) // o charAt devolve o elemento que está na posição indicada - no caso na posição 3 está a letra t (inicia contando no 0 e o espaço também conta como uma posição
 
-//console.log(umaString[1]) // também serve para pegar o elemento da posição indicada - no caso pegaria a letra m
+console.log(umaString[1]) // também serve para pegar o elemento da posição indicada - no caso pegaria a letra m
 
-//console.log(umaString.indexOf('texto')) // indexOf serve para saber em que posição começa o elemento indicado - no caso 'texto' começa na posição 3 
+console.log(umaString.indexOf('texto')) // indexOf serve para saber em que posição começa o elemento indicado - no caso 'texto' começa na posição 3 
 
-//console.log(umaString.indexOf('o', 3)) // neste caso eu quero que procure o 'o' a partir da posição 3 - sendo devolvido a posição 7
+console.log(umaString.indexOf('o', 3)) // neste caso eu quero que procure o 'o' a partir da posição 3 - sendo devolvido a posição 7
 
-//console.log(umaString.lastIndexOf('o ', 3)) // tem a mesma função do indexOf, mas começa a procurar de trás para frente - aqui é me devolvido -1, pois começando pela posição 3 (que é o t), antes dele não há nenhuma letra "o"
+console.log(umaString.lastIndexOf('o ', 3)) // tem a mesma função do indexOf, mas começa a procurar de trás para frente - aqui é me devolvido -1, pois começando pela posição 3 (que é o t), antes dele não há nenhuma letra "o"
 
 /* MÉTODOS QUE ACEITAM EXPRESSÕES REGULARES */
 
-//console.log(umaString.match(/[a-z]/)) // é retornado um array que condiz com a condição estabelecida na expressão regular - no caso retornariam todas as letras minúsculas devido ao uso do g, sem a utilização do g seria retornado apenas um elemento (a letra m)
+console.log(umaString.match(/[a-z]/)) // é retornado um array que condiz com a condição estabelecida na expressão regular - no caso retornariam todas as letras minúsculas devido ao uso do g, sem a utilização do g seria retornado apenas um elemento (a letra m)
 
-//console.log(umaString.search(/x/)) // semelhante com o indexOf, mas aceita expressões regulares - aqui irá procurar pela letra 'x'
+console.log(umaString.search(/x/)) // semelhante com o indexOf, mas aceita expressões regulares - aqui irá procurar pela letra 'x'
 
-//console.log(umaString.replace('Um', 'Outro')) // primeiro é a palavra a ser substituída e depois é a palavra que vai substituir
+console.log(umaString.replace('Um', 'Outro')) // primeiro é a palavra a ser substituída e depois é a palavra que vai substituir
 
-//console.log(umaString.replace(/Um/, 'Outro')) // utilizando com uma expressão regular
+console.log(umaString.replace(/Um/, 'Outro')) // utilizando com uma expressão regular
 
 
 let umaString = "O rato roeu a roupa do rei de Roma."
