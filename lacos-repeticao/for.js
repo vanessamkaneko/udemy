@@ -20,5 +20,5 @@
 const frutas = ['Maçã', 'Pera', 'Uva']
 
 for (let i = 0; i < frutas.length; i++) {
-  console.log(`índice ${i}`, frutas[i]);
+  console.log(`índice ${i}`, frutas[i]); //i - retorna o índice e o frutas[i] - índice e valor
 }
